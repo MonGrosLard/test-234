@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f55a00;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #f55a00;
+    padding: 20px 40px;
+    border: solid #f55a00 2px;
+    border-radius: 10px;
+}
+
+.header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: #f55a00;
+    font-size: medium;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {   
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+
+
+.content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.Niphone {
+    border: solid #f55a00 2px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-right: 70px;
+    transition: 0.3s;
+    width: auto;
+    transition: 0.3s;
+}
+
+.Niphone:hover {
+    border-color: aliceblue;
+}
+
+.Aiphone {
+    border: solid #f55a00 2px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-left: 70px;
+}
+
+.Aiphone:hover {
+    border-color: aliceblue;
+}
+
+img {
+    width: 500px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+img:hover {
+    width: 600px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #f55a00;
+    transition: 0.3s;
+}
+
+.header-title a:hover {
+    color: aliceblue;
+}
+
+.PHY {
+    padding-right: 70px;
+    transition: 0.3s;
+}
+
+.PHY:hover {
+    font-size: large;
+}
+
+p {
+    color: aliceblue;
+}
+
+.buy a {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #f55a00;
+    transition: 0.3s;
+}
+
+.buy a:hover {
+    font-size: 20px;
+    color: #000000;
+    background-color: aliceblue;
+}
+
+.buy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.HM {
+    display: none;
+}
+
+.HM a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f55a00;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.HM a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: large;
+
+}
+
+.menu .buy a {
+    font-size: 25px;
+    
+}
+
+.titreMenu h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.maint a {
+    padding: 10px;
+    background-color: #f55a00;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.maint a:hover {
+    font-size: larger;
+    background-color: #fcfcfc;
+    color: #000000;
+}
+
+.maint {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1210px) {
+     img {
+        width: 400px;
+     }
+
+     img:hover {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    img {
+       width: 250px;
+    }
+
+    img:hover {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    nav {
+        display: none;
+    }
+
+    .HM {
+        display: contents;
+    }
+}
+
+
+
+
+
+
+
